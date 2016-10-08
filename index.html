@@ -1,19 +1,64 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Ingénieur diplômé de l'EPSI Nantes, actuellement en poste chez Ideolys en Vendée en tant que reponsable technique et développement adjoint." />
+  <meta name="description" content="French developer and entrepreneur. Love all new things. Love JS / Node / web ..." />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
   <title>Florian Bezagu</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <style>
-    *{padding:0;margin:0;text-align:center;background:black;color:white;}
+    *{padding:0;margin:0;text-align:center;color:#333;font-family: 'Roboto', sans-serif;}
+    body{background:#FFF}
     pre{width:80%;margin:2em auto;}
     hr{width:50%;text-align:center;margin:auto}
     .hrHeader{margin-top: 50px; margin-bottom: 80px;}
     .hrFooter{margin-top: 100px; margin-bottom: 10px;}
     a{text-decoration: none;font-size: 13;}
+    #header {
+      height: 400px;
+      background-color: #333;
+      background-image: url('./img/texture.png');
+      background-repeat: repeat-x;
+      color: #FFF;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #header * {
+      color: #FFF;
+      text-transform: uppercase;
+    }
+    #name {
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    #job {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #AAA;
+      border-top: 2px solid #AAA;
+      border-bottom: 2px solid #AAA;
+      padding: 10px;
+    }
+    #logo {
+      width: 150px;
+    }
+    #footer {
+      padding: 30px;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+    #footer-shadow {
+      width: 500%;
+      position: absolute;
+      top: -40px;
+      left: -100px;
+      right: -100px;
+      height: 40px;
+      box-shadow: 0px 5px 20px #333;
+    }
   </style>
-  <script type="text/javascript">
-    function a(){var e=document.getElementById("a");var t=e.innerText.split("");var n=[];for(var r=0;r<t.length;r++){if(t[r]!==" "&&t[r]!=="\n"){n.push({text:t[r],i:r});t[r]=" "}}e.innerText=t.join("");b(n,0)}function b(e,t){function i(){var s=e[t];if(s!==undefined){r[s.i]=s.text;n.innerText=r.join("");++t;setTimeout(i,50)}}var n=document.getElementById("a");var r=n.innerText.split("");i()}
-  </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,25 +66,29 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-57141942-1', 'auto'); ga('send', 'pageview');
   </script>
 </head>
-<body onload="a()">
+<body>
 
-<hr class="hrHeader" />
-
-<pre id="a">
-  _____ _            _                 ____                            
- |  ___| | ___  _ __(_) __ _ _ __     | __ )  ___ ______ _  __ _ _   _ 
- | |_  | |/ _ \| '__| |/ _` | '_ \    |  _ \ / _ \_  / _` |/ _` | | | |
- |  _| | | (_) | |  | | (_| | | | |   | |_) |  __// / (_| | (_| | |_| |
- |_|   |_|\___/|_|  |_|\__,_|_| |_|   |____/ \___/___\__,_|\__, |\__,_|
-                                                           |___/       
-</pre>
-
-<hr class="hrFooter" />
-<a href="mailto:florian@bezagu.com">Mail</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="http://twitter.com/florianbezagu" target="_blank">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="https://google.com/+FlorianBezagu" target="_blank">Google +</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="http://www.viadeo.com/fr/profile/florian.bezagu" target="_blank">Viadeo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="http://fr.linkedin.com/in/florianbezagu" target="_blank">LinkedIn</a>
+  <div id="header">
+    <img id="logo" src="./img/logo.png">
+    <div id="name">
+      Florian Bezagu
+    </div>
+    <div id="job">
+      Developer / Entrepreneur
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer-shadow"></div>
+    <a href="mailto:florian@bezagu.com">Mail</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://twitter.com/fleebz" target="_blank">Twitter</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://fr.linkedin.com/in/florianbezagu" target="_blank">LinkedIn</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://google.com/+FlorianBezagu" target="_blank">Google +</a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://www.viadeo.com/fr/profile/florian.bezagu" target="_blank">Viadeo</a>
+  </div>
 
 </body>
 <html>
