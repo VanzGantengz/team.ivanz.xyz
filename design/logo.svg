@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.89556256"
      inkscape:cx="533.9543"
-     inkscape:cy="759.99456"
+     inkscape:cy="626.00057"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -99,7 +99,9 @@
        inkscape:export-ydpi="90" />
     <g
        id="g4189"
-       transform="translate(-6.6744347,0)">
+       transform="translate(-6.6744347,0)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
