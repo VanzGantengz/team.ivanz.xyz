@@ -65,6 +65,12 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-57141942-1', 'auto'); ga('send', 'pageview');
   </script>
+  <script>
+    const SPLITTED_EMAIL_ADDRESS = ['f' ,'l' ,'o' ,'r' ,'i' ,'a' ,'n' ,'@' ,'b' ,'e' ,'z' ,'a' ,'g' ,'u' ,'.' ,'c' ,'o' ,'m'];
+    function createMailToLink(el) {
+      el.href = 'mailto:' + SPLITTED_EMAIL_ADDRESS.join('');
+    }
+  </script>
 </head>
 <body>
 
@@ -81,7 +87,7 @@
     <div id="footer-shadow"></div>
     <a href="https://github.com/fleebzz" target="_blank">Github</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="mailto:florian@bezagu.com">Mail</a>
+    <a href="#" onclick="createMailToLink(this)" target="_blank">Mail</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="http://twitter.com/fleebz" target="_blank">Twitter</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
