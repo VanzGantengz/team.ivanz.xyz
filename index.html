@@ -94,6 +94,10 @@
     const SPLITTED_EMAIL_ADDRESS = ['f' ,'l' ,'o' ,'r' ,'i' ,'a' ,'n' ,'@' ,'b' ,'e' ,'z' ,'a' ,'g' ,'u' ,'.' ,'c' ,'o' ,'m'];
     function createMailToLink(el) {
       el.href = 'mailto:' + SPLITTED_EMAIL_ADDRESS.join('');
+
+      setTimeout(() => {
+        el.href = '#';
+      }, 100);
     }
   </script>
 </head>
